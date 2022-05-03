@@ -1,6 +1,6 @@
 # Function Call DLL Template
 
-Basic template for injecting into applications, define a function with a location. Call with other parameters.
+Basic template for injecting into applications, calling a function with a known location.
 
 Used a particular popular MOBA game for this demo, which will remain un-named for the longevity of my github account.
 
