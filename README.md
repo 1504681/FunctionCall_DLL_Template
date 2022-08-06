@@ -16,7 +16,7 @@ Using a debugger and comparing with [MSDN's Calling Convention page](https://doc
 - Find the function in IDA (rebasing to 0x0 is helpful)
 - Decompile the function (F5)
 
-Calling convention with arguments in seconds :D
+Calling convention with arguments in seconds 
 ![image](https://user-images.githubusercontent.com/84855585/166401057-584498ca-94cb-4325-8889-8a1186f0e19e.png)
 
 For this function we have a this*, which we can pass (NULL) too, a const char* text, and the last integer parameter is just for color + the option to prepend the gametime with the message. (For example 5 is White Text, and 6 is White Text with the time)
